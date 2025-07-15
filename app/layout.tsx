@@ -3,6 +3,8 @@ import { Roboto } from 'next/font/google';
 import './globals.css';
 import ResponsiveNav from '@/components/Home/Navbar/ResponsiveNav';
 import Provider from '@/components/HOC/Provider';
+import Footer from '@/components/Home/Footer/Footer';
+import ScrolltoTop from '@/components/Helper/ScrolltoTop';
 
 const font = Roboto({
   weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
@@ -28,6 +30,8 @@ export default function RootLayout({
         <Provider>
           <ResponsiveNav />
           {children}
+          <Footer />
+          <ScrolltoTop />
         </Provider>
       </body>
     </html>

@@ -10,19 +10,19 @@ const Price = () => {
         subHeading='Check out our Pricing Packages'
       />
       <div className='w-[80%] mx-auto mt-16 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6'>
-        <div data-aos='fade-right' data-aos-anchor-placement='top-center' >
+        <div>
           <PriceCard
             type='Basic'
             price='199'
           />
         </div>
-        <div data-aos='fade-right' data-aos-anchor-placement='top-center' data-aos-delay={100}>
+        <div>
           <PriceCard
             type='Standard'
             price='399'
           />
         </div>
-        <div data-aos='fade-right' data-aos-anchor-placement='top-center' data-aos-delay={200}>
+        <div>
           <PriceCard
             type='Extended'
             price='599'

@@ -5,7 +5,7 @@ const Info = () => {
   return (
     <div className='pt-16 pb-16'>
       <div className='w-[80%] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center'>
-        <div data-aos='fade-left' data-aos-anchor-placement='top-center' >
+        <div  >
           <Image
             src='/images/a.png'
             alt='img'
@@ -13,7 +13,7 @@ const Info = () => {
             height={1000}
           />
         </div>
-        <div data-aos='fade-right' data-aos-anchor-placement='top-center' data-aos-delay='150'>
+        <div >
           <h1 className='text-3xl md:text-4xl lg:text-5xl font-bold leading-8 lg:leading-16 '>
             Get Applications from the world best talents.
           </h1>
